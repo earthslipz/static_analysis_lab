@@ -18,7 +18,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=earthslipz_static_analysis_lab
-            -Dsonar.organization=phubase-san
+            -Dsonar.organization=earthslipz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
